@@ -31,6 +31,7 @@ const Page = async ({ params }: { params: { category: string } }) => {
             title
             description
             body
+            date_created
             image {
               id
             }
