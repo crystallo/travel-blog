@@ -63,6 +63,7 @@ export const CTACard = async () => {
             name="email"
             placeholder="Write your email"
             className="w-full px-3 py-2 text-base rounded-md outline-none md:w-auto bg-white/80 focus:ring-2 ring-neutral-600 placeholder:text-sm"
+            aria-label="Your email"
           />
           <button className="px-3 py-2 rounded-md bg-neutral-900 text-neutral-200 whitespace-nowrap">
             Sign Up
