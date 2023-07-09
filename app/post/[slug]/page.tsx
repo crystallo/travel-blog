@@ -31,6 +31,7 @@ const Page = async ({ params }: { params: { slug: string } }) => {
         description
         slug
         body
+        date_created
         image {
           id
         }

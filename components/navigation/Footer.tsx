@@ -11,7 +11,6 @@ export const Footer = () => {
           <p className="max-w-md mt-2 text-lg text-neutral-700">
             {siteConfig.description}
           </p>
-          <div>
             {/* Social */}
             <div className="flex flex-wrap justify-between gap-4 mt-6">
               <div>
@@ -46,7 +45,6 @@ export const Footer = () => {
               </div>
               <div className="text-sm">Made with love by @Monkey</div>
             </div>
-          </div>
         </div>
       </PaddingContainer>
     </footer>
