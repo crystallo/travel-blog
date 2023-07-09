@@ -26,7 +26,7 @@ export const SocialLink = ({
   };
 
   return (
-    <Link href={link}>
+    <Link aria-label="Open link to {platfrom}" href={link}>
       <div
         className={`${
           isShareURL
